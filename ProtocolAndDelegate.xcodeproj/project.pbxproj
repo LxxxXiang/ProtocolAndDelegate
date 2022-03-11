@@ -14,6 +14,8 @@
 		02A0E7D727DB1BCA00C771AD /* ProtocolAndDelegate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02A0E7D527DB1BCA00C771AD /* ProtocolAndDelegate.xcdatamodeld */; };
 		02A0E7D927DB1BCB00C771AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A0E7D827DB1BCB00C771AD /* Assets.xcassets */; };
 		02A0E7DC27DB1BCB00C771AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A0E7DA27DB1BCB00C771AD /* LaunchScreen.storyboard */; };
+		02A0E7E427DB249500C771AD /* SelectMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0E7E327DB249500C771AD /* SelectMenu.swift */; };
+		02A0E7E627DB24BE00C771AD /* EnterText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0E7E527DB24BE00C771AD /* EnterText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		02A0E7D827DB1BCB00C771AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A0E7DB27DB1BCB00C771AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02A0E7DD27DB1BCB00C771AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A0E7E327DB249500C771AD /* SelectMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMenu.swift; sourceTree = "<group>"; };
+		02A0E7E527DB24BE00C771AD /* EnterText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				02A0E7CC27DB1BCA00C771AD /* AppDelegate.swift */,
 				02A0E7CE27DB1BCA00C771AD /* SceneDelegate.swift */,
 				02A0E7D027DB1BCA00C771AD /* ViewController.swift */,
+				02A0E7E327DB249500C771AD /* SelectMenu.swift */,
+				02A0E7E527DB24BE00C771AD /* EnterText.swift */,
 				02A0E7D227DB1BCA00C771AD /* Main.storyboard */,
 				02A0E7D827DB1BCB00C771AD /* Assets.xcassets */,
 				02A0E7DA27DB1BCB00C771AD /* LaunchScreen.storyboard */,
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A0E7D727DB1BCA00C771AD /* ProtocolAndDelegate.xcdatamodeld in Sources */,
+				02A0E7E627DB24BE00C771AD /* EnterText.swift in Sources */,
 				02A0E7D127DB1BCA00C771AD /* ViewController.swift in Sources */,
 				02A0E7CD27DB1BCA00C771AD /* AppDelegate.swift in Sources */,
+				02A0E7E427DB249500C771AD /* SelectMenu.swift in Sources */,
 				02A0E7CF27DB1BCA00C771AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
